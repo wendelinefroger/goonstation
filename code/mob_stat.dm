@@ -1,7 +1,7 @@
 //MBC : saving some cpu by doing these checks once per Stat() cycle and caching the results for all mobs
 // All 'global' printouts should be set in mob_stat_thinker/update()
 // All the player specific info should be handled directly in mob/stat().
-//I know its really ugly ok i'm sorry
+//I  know its really ugly ok i'm sorry
 
 #define saveStat(key, value) stats[key] = value
 
