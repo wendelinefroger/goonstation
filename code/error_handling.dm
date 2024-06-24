@@ -3,7 +3,7 @@
 * And also build data for an in-game runtime viewer
 *
 * It catches all normal runtimes and uncaught exceptions
-* It does NOT catch reference bugs
+* It does NOT catch r eference bugs
 */
 
 var/global/list/runtimeDetails = list()
